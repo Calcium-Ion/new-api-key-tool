@@ -181,6 +181,7 @@ const LogsTable = () => {
             dataIndex: 'created_at',
             render: renderTimestamp,
             sorter: (a, b) => a.created_at - b.created_at,
+            defaultSortOrder: 'descend',
         },
         {
             title: '令牌名称',
